@@ -1,22 +1,19 @@
 import React from 'react'
-import { Banner } from './Banner'
-import { TopSellers } from './topSellers'
+import Banner from './Banner'
+
 import Recommened from './Recommened'
 import News from './News'
+import TopSellers from './topSellers'
 
-
-
- export const Home = () => {
+const Home = () => {
   return (
     <>
-        <Banner />
+        <Banner/>
         <TopSellers/>
         <Recommened/>
         <News/>
-        
-        
     </>
   )
 }
 
-export default Home;
+export default Home
