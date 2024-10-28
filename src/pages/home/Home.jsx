@@ -19,3 +19,4 @@ import News from './News'
   )
 }
 
+export default Home;
