@@ -3,7 +3,7 @@ import Banner from './Banner'
 
 import Recommened from './Recommened'
 import News from './News'
-import TopSellers from './TopSellers'
+import TopSellers from './TopSellers'//merah tapi berhasil 
 
 const Home = () => {
   return (
